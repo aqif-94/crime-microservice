@@ -66,6 +66,11 @@ A Spring Boot microservice that allows for the retrival of data using third part
    `postcode=[alphanumeric]`
  
    `date=[yyyy-mm]`
+   
+   **Note: This web service makes use of third party APIs. Consider validating the postcode before expecting a valid response.**
+ 
+   `api.postcodes.io/postcodes/{postcode}/validate`
+   
 
 * **Success Response:**
 
