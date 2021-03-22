@@ -43,8 +43,6 @@ A Spring Boot microservice that allows for the retrival of data using third part
  
 * **Error Response:**
 
-  <_Most endpoints will have many ways they can fail. From unauthorized access, to wrongful parameters etc. All of those should be liste d here. It might seem repetitive, but it helps prevent assumptions from being made where they should be._>
-
   * **Code:** 404 NOT FOUND <br />
     **Content:** 
     `{
@@ -100,8 +98,6 @@ A Spring Boot microservice that allows for the retrival of data using third part
 ]`
  
 * **Error Response:**
-
-  <_Most endpoints will have many ways they can fail. From unauthorized access, to wrongful parameters etc. All of those should be liste d here. It might seem repetitive, but it helps prevent assumptions from being made where they should be._>
 
   * **Code:** 400 BAD_REQUEST <br />
     **Content:** 
